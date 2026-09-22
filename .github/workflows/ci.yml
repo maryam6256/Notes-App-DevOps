@@ -15,7 +15,7 @@ jobs:
 
       - name: Check for core files
         run: |
-          if [ ! -f "broken.html" ]; then
+          if [ ! -f "index.html" ]; then
             echo "Error: index.html is missing!"
             exit 1
           fi
